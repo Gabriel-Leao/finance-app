@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, StatusBar, StyleSheet, TouchableOpacity} from 'react-native'
 import { Feather } from '@expo/vector-icons'
 
-const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight : 64
+const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 22 : 64
 
 const Header = ({ name }) => {
   return ( 

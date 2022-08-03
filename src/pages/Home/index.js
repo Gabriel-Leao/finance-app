@@ -8,7 +8,7 @@ import Movements from '../../components/Movements'
 const list = [
   {
     id: 1,
-    label: 'Conta Luz',
+    label: 'Conta de Luz',
     value: '128,63',
     date: '15/07/2022',
     type: 0 // GASTO

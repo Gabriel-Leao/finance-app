@@ -4,7 +4,7 @@ import { Feather } from '@expo/vector-icons'
 const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 22 : 64
 
 const Header = ({ name }) => {
-  return ( 
+  return (
     <View style={styles.container}>
       <View style={styles.content}>
         <Text style={styles.userName}>{ name }</Text>

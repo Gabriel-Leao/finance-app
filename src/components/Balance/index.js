@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from 'react-native'
 
 const Balance = ({ saldo, gastos }) => {
-  return ( 
+  return (
     <View style={styles.container}>
       <View style={styles.item}>
         <Text style={styles.itemTitle}>Saldo</Text>

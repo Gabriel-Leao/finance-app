@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View, FlatList } from 'react-native'
+import { StatusBar } from 'expo-status-bar'
 
 import Actions from '../../components/Actions'
 import Balance from '../../components/Balance'
@@ -54,6 +55,8 @@ export default function Home() {
         showsVerticalScrollIndicator={false}
         renderItem={ ({ item }) => <Movements data={item}/>}
       />
+
+      <StatusBar hidden={true}/>
     </View>
   )
 }
